@@ -28,7 +28,7 @@ public class MascotaController {
     @DeleteMapping("/mascotas/borrar/{id_mascota}")
     public String deleteMascota (@PathVariable Long id_mascota){
         mascoServ.deleteMascota(id_mascota);
-        return "La mascota fue eliminada correctamente";
+        return "La mascota fueron eliminadas correctamente";
     }
 
     @PutMapping("/mascota/editar/{id_original}")
